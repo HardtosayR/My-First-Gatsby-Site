@@ -6,6 +6,7 @@ console.log('container: ', container)
 const Layout = ({pageTile, pageheading, children}) => {
     return (
         <div className={container}>
+            <meta name="viewport" content="initial-scale=1, width=device-width"></meta>
             <title>{pageheading}</title>
             <nav>
                 <ul className={navLinks}>
