@@ -4,8 +4,7 @@ import Layout from "../components/layout"
 const About = () => {
     return (
         <Layout pageTile="About Me" pageheading="Abou Me">
-            <p>黄河之水天上来，奔流到海不复回。</p>
-            <p>君不见高堂明镜悲白发，朝如青丝暮成雪。</p>
+            <p>我是许超，我的女朋友是马文娟，我爱我的女朋友。</p>
         </Layout>
     )
 }
